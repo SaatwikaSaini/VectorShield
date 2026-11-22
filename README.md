@@ -38,7 +38,7 @@ Verification is assessed by calculating the spatial proximity between a freshly 
 
 $$\text{dist} = \| \vec{v}_{\text{stored}} - \vec{v}_{\text{captured}} \|_2 = \sqrt{\sum_{i=1}^{10} (v_{\text{stored}, i} - v_{\text{captured}, i})^2}$$
 
-Authentication is granted only if the distance score falls below a strict predefined threshold ($\text{dist} < \epsilon$).
+Authentication is granted only if the distance score falls below a strict predefined threshold. ($\text{dist} < \epsilon$).
 
 ---
 
